@@ -1,8 +1,9 @@
-.main-container {
+.container {
   position: relative;
   width: 1170px;
   max-width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .title-image {
@@ -13,7 +14,7 @@
   background-size: cover;
 }
 
-.title-image .main-container {
+.title-image .container {
   height: 100%;
 }
 

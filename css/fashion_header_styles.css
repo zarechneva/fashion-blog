@@ -9,13 +9,21 @@ body {
   margin: 0;
 }
 
+/* TODO: use padding only to set height */
 .menu-header {
-  height: 32px;
   padding: 32px 80px;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
 header a.logo-header {
-  height: 32px;
+  height: 34px;
   float: left;
   margin-top: 0;
 }
