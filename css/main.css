@@ -56,6 +56,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
@@ -127,6 +131,10 @@ p {
   font-weight: bold;
   font-size: 26px;
   font-family: PT Serif;
+  color: #FFFFFF;
+}
+
+.poster-text a:hover {
   color: #FFFFFF;
 }
 
