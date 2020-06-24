@@ -29,7 +29,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  text-align: center;
   color: #B1B1B1;
   margin: 0;
   padding-top: 4px;
@@ -94,8 +93,12 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  text-align: center;
   margin: 0 0 13px 0;
+}
+
+.tags {
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 .tags a {
@@ -107,8 +110,7 @@
   font-size: 13px;
   font-family: PT serif;
   padding: 6px 14px;
-  margin: 0 10px 10px 0;
-  float: left;
+  margin: 5px;
 }
 
 .pagination {
@@ -124,7 +126,7 @@
 }
 
 .page-link {
-  font-family: HK Grotesk, PT serif;
+  font-family: HKGrotesk-Light, PT serif;
   font-size: 16px;
   line-height: 16px;
   color: #171717;
@@ -133,7 +135,7 @@
 }
 
 .link-muted-gray {
-color: #A2A2A2;
+  color: #A2A2A2;
 }
 
 .page-link-prev {
