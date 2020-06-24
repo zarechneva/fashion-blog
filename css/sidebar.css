@@ -98,6 +98,54 @@
   margin: 0 0 13px 0;
 }
 
+.tags a {
+  display: inline-block;
+  background-color: #F8F9FA;
+  color: #666666;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  font-family: PT serif;
+  padding: 6px 14px;
+  margin: 0 10px 10px 0;
+  float: left;
+}
+
+.pagination {
+  border: 1px solid #E5E5E5;
+  display: inline-block;
+  margin-bottom: 70px;
+  font-size: 0;
+  padding-left: 0;
+}
+
+.page-item {
+  display: inline-block;
+}
+
+.page-link {
+  font-family: HK Grotesk, PT serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: #171717;
+  padding: 18px 15px 16px 15px;
+  display: block;
+}
+
+.link-muted-gray {
+color: #A2A2A2;
+}
+
+.page-link-prev {
+  padding-left: 25px;
+  font-size: 14px;
+}
+
+.page-link-next {
+  padding-right: 21px;
+  font-size: 14px;
+}
+
 @media screen and (min-width: 1170px) {
   .sidebar {
     margin-left: 100px;

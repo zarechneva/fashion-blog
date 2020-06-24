@@ -92,6 +92,10 @@ p {
   color: #666666;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .font-category {
   text-transform: uppercase;
   font-family: PT Sans, sans-serif;
