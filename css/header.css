@@ -21,10 +21,38 @@ body {
   height: 0;
 }
 
-header a.logo-header {
+.header a.logo-header {
   height: 34px;
   float: left;
   margin-top: 0;
+}
+
+.logo {
+  display: block;
+  position: relative;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: 2.5px;
+  color: #171717;
+}
+
+.logo:before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: #C9A96E;
+  opacity: 0.35;
+  z-index: -1;
+}
+
+.logo-header {
+  float: left;
 }
 
 nav a {
@@ -55,4 +83,8 @@ nav ul {
 
 .top-menu a {
   	color: #171717;
+}
+
+.top-menu a:hover {
+  	color: #C9A96E;
 }
