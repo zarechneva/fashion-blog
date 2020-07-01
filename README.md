@@ -9,4 +9,4 @@
 
 ***DESIGN TEMPLATE***
 
-![Design template](Template.png)
+![Design template](https://github.com/zarechneva/fashion-blog/blob/master/images/Template.png)
