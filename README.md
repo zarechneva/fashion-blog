@@ -4,11 +4,10 @@
 
 > This template is a part of "Elizaveta Zarechneva projects portfolio"
 
-> Design was taken from Figma.com
-
 ## Features
-- RESPONSIVE READY
 
-***DESIGN TEMPLATE***
+- Library like grid layout.
 
-![Design template](https://github.com/zarechneva/fashion-blog/blob/master/images/Template.png)
+## Design
+
+[Design template](https://github.com/zarechneva/fashion-blog/blob/master/images/Template.png)
