@@ -4,6 +4,8 @@
 
 > This template is a part of "Elizaveta Zarechneva projects portfolio"
 
+> Design was taken from Figma.com
+
 ## Features
 - RESPONSIVE READY
 
