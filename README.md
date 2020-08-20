@@ -7,6 +7,7 @@
 ## Features
 
 - Library like grid layout.
+- Responsive navigation.
 
 ## Design
 
