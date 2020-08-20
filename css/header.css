@@ -10,10 +10,6 @@ body {
   margin-top: 60px;
 }
 
-/* .menu-header {
-  padding: 32px 80px;
-} */
-
 .menu-header {
   padding: 15px 80px;
   text-align: center;
@@ -33,7 +29,7 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  margin-top:60px;
+  margin-top: 60px;
   z-index: 1;
   transform: translate(-100%, 0);
   transition: transform 0.3s ease-in-out 0.3s;
@@ -216,8 +212,6 @@ nav ul {
     padding: 0 0px 0 10px ;
   }
 
-
-
 @media screen and (min-width: 768px) {
 
   body {
@@ -227,8 +221,5 @@ nav ul {
   .menu-header {
     padding: 32px 80px;
   }
-
-
-
 
 }
