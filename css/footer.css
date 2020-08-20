@@ -71,6 +71,7 @@ a.icon-box-circle:hover {
   background-color: #C9A96E;
   color: white;
   border: 1px solid #C9A96E;
+  transition: background-color 0.2s;
 }
 
 .footer-line {
