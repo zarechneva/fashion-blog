@@ -99,6 +99,22 @@
   .poster-text {
     width: 80%;
   }
+
+  .page-link-prev {
+    padding-left: 25px;
+    font-size: 14px;
+  }
+
+  .page-link-next {
+    padding-right: 21px;
+    font-size: 14px;
+  }
+
+  .page-link {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 18px 15px 16px 15px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -350,10 +366,10 @@ p.article-text {
 
 .page-link {
   font-family: HKGrotesk-Light, PT serif;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 10px 7px 10px 7px;
   color: #171717;
-  padding: 18px 15px 16px 15px;
   display: block;
 }
 
@@ -362,13 +378,13 @@ p.article-text {
 }
 
 .page-link-prev {
-  padding-left: 25px;
-  font-size: 14px;
+  padding-left: 10px;
+  font-size: 12px;
 }
 
 .page-link-next {
-  padding-right: 21px;
-  font-size: 14px;
+  padding-right: 10px;
+  font-size: 12px;
 }
 
 .instagram-widget .column-2 {
