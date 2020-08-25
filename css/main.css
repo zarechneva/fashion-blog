@@ -78,83 +78,23 @@
   width: 90%;
 }
 
-@media screen and (min-width: 576px) {
-
-  .column-sm-3 {
-    width: 50%;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
-  }
-
-  .wide-post-container{
-    padding: 25px 80px 25px 30px;
-  }
-
-  .poster-text h1 {
-    font-size: 26px;
-  }
-
-  .poster-text {
-    width: 80%;
-  }
-
-  .page-link-prev {
-    padding-left: 25px;
-    font-size: 14px;
-  }
-
-  .page-link-next {
-    padding-right: 21px;
-    font-size: 14px;
-  }
-
-  .page-link {
-    font-size: 16px;
-    line-height: 16px;
-    padding: 18px 15px 16px 15px;
-  }
+.page-link {
+  font-family: HKGrotesk-Light, PT serif;
+  color: #171717;
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 10px 7px 10px 7px;
 }
 
-@media screen and (min-width: 768px) {
+.page-link-prev {
+  padding-left: 10px;
+  font-size: 12px;
+}
 
-  .column-md-1 {
-    width: 16.666666666%;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
-  }
-
-  .column-md-3 {
-    width: 50%;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
-  }
-
-  .column-md-4 {
-    width: 66.666666666%;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
-  }
-
-  .d-block {
-    display: block;
-  }
-
-  .wide-post-container {
-    padding: 25px 126px 25px 30px;
-  }
-
-  .poster-text {
-    width: 40%;
-  }
-
+.page-link-next {
+  padding-right: 10px;
+  font-size: 12px;
 }
 
 a {
@@ -364,27 +304,10 @@ p.article-text {
   display: inline-block;
 }
 
-.page-link {
-  font-family: HKGrotesk-Light, PT serif;
-  font-size: 12px;
-  line-height: 12px;
-  padding: 10px 7px 10px 7px;
-  color: #171717;
-  display: block;
-}
+
 
 .link-muted-gray {
   color: #A2A2A2;
-}
-
-.page-link-prev {
-  padding-left: 10px;
-  font-size: 12px;
-}
-
-.page-link-next {
-  padding-right: 10px;
-  font-size: 12px;
 }
 
 .instagram-widget .column-2 {
@@ -414,4 +337,85 @@ p.article-text {
 .instagram-widget img:hover {
   transform: scale(1.1);
   transition: transform 0.8s;
+}
+
+@media screen and (min-width: 576px) {
+
+  .column-sm-3 {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+  .wide-post-container{
+    padding: 25px 80px 25px 30px;
+  }
+
+  .poster-text h1 {
+    font-size: 26px;
+  }
+
+  .poster-text {
+    width: 80%;
+  }
+
+  .page-link {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 18px 15px 16px 15px;
+  }
+
+  .page-link-prev {
+    padding-left: 25px;
+    font-size: 14px;
+  }
+
+  .page-link-next {
+    padding-right: 21px;
+    font-size: 14px;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .column-md-1 {
+    width: 16.666666666%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+  .column-md-3 {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+  .column-md-4 {
+    width: 66.666666666%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .wide-post-container {
+    padding: 25px 126px 25px 30px;
+  }
+
+  .poster-text {
+    width: 40%;
+  }
+
 }
