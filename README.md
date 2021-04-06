@@ -1,10 +1,10 @@
 # Fashion-blog
 
-> This is a one-page HTML Blog template
+- This is a one-page HTML Blog template
 
-> This template is a part of "Elizaveta Zarechneva projects portfolio"
+- This template is a part of "Elizaveta Zarechneva projects portfolio"
 
-> available at https://zarechneva.github.io/
+- available at https://zarechneva.github.io/
 
 ## Features
 
